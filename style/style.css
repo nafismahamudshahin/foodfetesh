@@ -13,14 +13,14 @@ body{
 .card-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 20px;
+    gap: 20px;
 }
 .card-main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     border: 2px solid rgb(248, 244, 244);
 }
 .card-img img{
@@ -28,8 +28,23 @@ body{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.body-card{
+    padding: 20px;
+}
+/* .body-card h4{
+
+} */
+.body-card p{
+    color: #403F3F;
+    font-size: 15px;
+}
 
 footer{
     background: rgba(255, 193, 7, 0.05);
-
+    color: #403F3F;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: #403F3F;
 }
